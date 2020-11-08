@@ -1,1 +1,1 @@
-# MEC-2020-Finalists
+# MEC 2020 Finalists
