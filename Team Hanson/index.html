@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>CorFeed - Stop the Virus Together</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/favicon/site.webmanifest">
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+    </head>
+    <body>
+        <div class="topbar">
+            <button class="sidebar-toggle" type="button" id="sidebar-toggle">
+                <span class="white-bar"></span>
+                <span class="white-bar"></span>
+                <span class="white-bar"></span>
+            </button>
+            <div class="section title">
+                <a href="/">CorFeed</a>
+            </div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="header">
+                <div class="section title">
+                    <a href="/">CorFeed</a>
+                </div>
+                <div class="section avatar">
+                    <a href="/">
+                        <img class="avatar" title="CorFeed" src="/images/icon.png">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <ul class="navbar">
+                    <li>
+                        <a href="#regional-info" title="Overview">Overview</a>
+                    </li>
+                    <li>
+                        <a href="#risk-ranking" title="Statistics">Risk Ranking</a>
+                    </li>
+                    <li>
+                        <a href="#statistics" title="Statistics">Statistics</a>
+                    </li>
+                    <li>
+                        <a href="#acknowledgements" title="Acknowledgements">Acknowledgements</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div id="content">
+                <div class="summary">
+                    <span class="content-title" id="regional-info">Regional Information</span>
+                    <div class="article-desc" id="from-country"></div>
+                    <div id="regional-table"></div>
+                    <div id="warning" style="color: red;"><b>WARNING: VIRUS IS QUITE ACTIVE IN YOUR COUNTRY/REGION! PLEASE TAKE EXTRA PRECAUTIONS!</b></div>
+                </div>
+                <div class="summary">
+                    <span class="content-title">Global Overview</span>
+                    <div class="article-desc" id="overview-desc">
+                        The size of red circles represents how active the virus in the countries/regions.<br>
+                    </div>
+                    <div class="map-container">
+                        <div id="map"></div>
+                    </div>
+                    <div>
+                        View: 
+                        <button class="view-button" id="view-0">Virus Activity</button> 
+                        <button class="view-button" id="view-1">Total Cases</button> 
+                        <button class="view-button" id="view-2">New Cases</button> 
+                        <button class="view-button" id="view-3">Total Deaths</button> 
+                        <button class="view-button" id="view-4">Total Recovered</button> 
+                        <button class="view-button" id="view-5">Active Cases</button> 
+                    </div>
+                </div>
+                <div class="summary">
+                    <span class="content-title" id="risk-ranking">Risk Ranking</span>
+                    <div class="article-desc">
+                        The risk ranking of visiting a country/region
+                    </div>
+                    <div>
+                        <div id="ranking"></div>
+                    </div>
+                </div>
+                <div class="summary">
+                    <span class="content-title">Statistics</span>
+                    <div class="article-desc">
+                        Statistics of the virus
+                    </div>
+                    <div id="statistics"></div>
+                </div>
+                <div class="summary">
+                    <span class="content-title" id="acknowledgements">Acknowledgements & Credits</span>
+                    <div class="article-desc">
+                        The data source is from https://www.trackcorona.live/ . I do not own any of these data.<br>
+                        API used:<br>
+                        1. Google Maps API (https://developers.google.com/maps/documentation)<br>
+                        2. IP geolocation API (https://ipstack.com/)<br>
+                        3. TrackCorona Data API (https://www.trackcorona.live/)<br>
+                        4. Google Charts (https://developers.google.com/chart)
+                        I cannot guarantee the accuracy of the data shown on this page. They are provided by 3rd parties.
+                    </div>
+                </div>
+            </div>
+            <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+            <script src="/scripts/getdata.js"></script>
+            <script src="/scripts/overview.js"></script>
+            <script src="/scripts/sidebar.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJuNTTVobAD2A90w34RG4vUKLXCRluSyk&libraries=&v=weekly" type="text/javascript"></script>
+            <div class="footer">
+                Copyright © 2020 CorFeed<br>
+                Made with <span title="LOVE AND DETERMINATION!" style="color: #e25555;">❤</span> by <a href="https://github.com/SweetIceLolly" target="_blank">Hanson</a>.
+            </div>
+        </div>
+    </body>
+</html>
