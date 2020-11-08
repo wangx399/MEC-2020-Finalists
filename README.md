@@ -5,3 +5,5 @@
 # Once you have chosen your top three teams, please create a text file with your chosen teams written down and give a short explanation why you chose each.
 
 # Let me know if you have any questions and thank you for your time!
+
+# Finalists will need to be decided on by 12pm.
