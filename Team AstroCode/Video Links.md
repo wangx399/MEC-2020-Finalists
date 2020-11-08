@@ -1,2 +1,2 @@
-# Demo Video: https://drive.google.com/file/d/1Xq3Cn0nZ9opT6Duzxc6NPHw2rCxJE06r/view?usp=sharing
-# Project Pitch: https://drive.google.com/file/d/1ZApLQ765AvFo5H7FUicsrUJ1BoOhsycr/view?usp=sharing
+# Demo Video: https://drive.google.com/file/d/1uK7WFkm6jTsR-LbmZKJeNKt4t3p5Z8qe/view?usp=sharing
+# Project Pitch: https://drive.google.com/file/d/1-k14zan02kORWmb1_UbN8bbN6O6sJGdV/view?usp=sharing
