@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Virus Tracker</title>
+	<link rel="shortcut icon" href="https://clipartspub.com/images/coronavirus-clipart-7.png">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' href='/public/styles.css'>
+
+	<!-- Resources -->
+	<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+	<script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+	<script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
+	<script src="https://cdn.amcharts.com/lib/4/themes/dark.js"></script>
+	<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+	<!-- Chart code -->
+	<script src="/public/chart.js"></script>
+
+	<!-- Scripts -->
+	<script defer src="/public/form.js"></script>
+	<script defer src="/public/iso2.js"></script>
+	<script defer src="/public/parser.js"></script>
+	<script defer src="/public/client.js"></script>
+</head>
+<body>
+
+	<div id="display">
+		<div id="details-panel">
+			<h1>Details</h1>
+			<div id="side-panel-info">
+				Click on a country to view its data!
+			</div>
+		</div>
+		<div id="chartdiv"></div>
+	</div>
+	<form id="metricForm">
+		<h2>Display metric</h2>
+		<input type="radio" id="metric1" name="metric" value="rateOfSpread">
+		<label for="metric1">Rate of spread</label><br>
+		<input type="radio" id="metric2" name="metric" value="infectionRate">
+		<label for="metric2">Infection rate</label><br>
+		<input type="radio" id="metric3" name="metric" value="mortalityRate">
+		<label for="metric3">Mortality rate</label>
+	</form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+html, body {
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #30303d;
+	color: #fff;
+}
+
+#chartdiv {
+	height: 100%;
+}
+
+#display {
+	height: 100%;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#details-panel {
+	padding: 8px;
+	background-color: #40404d;
+}
+
+#metricForm {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #3030FF80;
+	position: absolute;
+	bottom: 0;
+	width: 16%;
+	padding: 2%;
+}
+
+#metricForm label {
+	user-select: none;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "virus-tracking-application-abcd",
+  "version": "1.0.0",
+  "description": "A web app that tracks virus data. Created for the MEC programming competition.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEC-2020-Programming/virus-tracking-application-abcd.git"
+  },
+  "author": "Luigi Quattrociocchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MEC-2020-Programming/virus-tracking-application-abcd/issues"
+  },
+  "homepage": "https://github.com/MEC-2020-Programming/virus-tracking-application-abcd#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
